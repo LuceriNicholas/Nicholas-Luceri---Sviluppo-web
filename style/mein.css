@@ -1,1 +1,91 @@
-/* No CSS *//*# sourceMappingURL=mein.css.map */
+* {
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "lobster";
+  src: url(../risorse/Lobster-Regular.ttf);
+}
+
+/*-------------------------------------------
+-------------background-color----------------
+------------------------------------------ */
+body {
+  background-color: white;
+}
+
+aside .tendina {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
+  -webkit-transition: bottom linear 0.5s;
+  transition: bottom linear 0.5s;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 20px;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header header {
+  background: #3f5efb;
+  background: -webkit-gradient(linear, left top, right top, from(#3f5efb), to(#fc466b));
+  background: linear-gradient(90deg, #3f5efb 0%, #fc466b 100%);
+  border-radius: 10px;
+  height: 50px;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.323) 0px 0px 20px 2px;
+          box-shadow: rgba(0, 0, 0, 0.323) 0px 0px 20px 2px;
+}
+
+.header header .logo h1 {
+  font-family: 'lobster';
+}
+
+.header header .hamburger {
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  margin: 5px 5px 0 0;
+}
+
+.hamburger:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: rotate(-450deg);
+          transform: rotate(-450deg);
+}
+
+.hamburger:hover aside .tendina {
+  bottom: -90px;
+}
+/*# sourceMappingURL=mein.css.map */

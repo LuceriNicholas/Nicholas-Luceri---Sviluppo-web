@@ -1,2 +1,16 @@
 //main: main.scss
 
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "lobster";
+    src: url(../risorse/Lobster-Regular.ttf);
+}
+
+/*-------------------------------------------
+-------------background-color----------------
+------------------------------------------ */
+$c1: white;

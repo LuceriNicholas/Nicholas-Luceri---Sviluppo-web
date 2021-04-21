@@ -1,2 +1,57 @@
 //main: main.scss
 
+body {
+	background-color: $c1;
+}
+
+aside .tendina {
+	position: relative;
+	//bottom: 150px;
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	transition: bottom linear 0.5s;
+}
+
+.header {
+	width: 100%;
+	position:fixed;
+	top: 20px;
+	left: 0;
+	display: flex;
+	justify-content: center;
+
+	header {
+		background: rgb(63,94,251);
+		background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+		border-radius: 10px;
+		height: 50px;
+		width: 95%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 20px;
+		box-shadow: rgba(0, 0, 0, 0.323) 0px 0px 20px 2px;
+		
+		
+		.logo h1 {
+			font-family: 'lobster';
+		}
+
+		.hamburger {
+			transition: all linear 0.5s;
+			margin: 5px 5px 0 0;
+		}
+	}
+}
+
+.hamburger:hover {
+	display: flex;
+	align-items: center;
+	transform: rotate(-450deg);
+}
+.hamburger:hover aside {
+	.tendina {
+		bottom: -90px;
+	}
+}
