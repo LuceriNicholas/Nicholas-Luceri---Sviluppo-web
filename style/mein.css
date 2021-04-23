@@ -12,7 +12,7 @@
 /*------------background-color---------------*/
 /*---------------effetti------------------ */
 /*---------------text-color---------------- */
-body {
+html {
   background-color: white;
   scroll-behavior: smooth;
 }
@@ -156,11 +156,6 @@ body {
           transform: scaleY(1);
 }
 
-.hamburger:hover .tendina .lingua li:hover {
-  -webkit-transform: scaleY(1);
-          transform: scaleY(1);
-}
-
 article {
   margin-top: 70px;
   padding: 20px;
@@ -245,5 +240,9 @@ form fieldset #pulsante {
   width: 100px;
   height: 45px;
   border-radius: 10px;
+}
+
+#dark:hover > html {
+  background-color: Black;
 }
 /*# sourceMappingURL=mein.css.map */

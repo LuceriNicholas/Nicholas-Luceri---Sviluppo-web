@@ -1,6 +1,6 @@
 //main: main.scss
 
-body {
+html {
 	background-color: $c1;
 	scroll-behavior: smooth;
 }
@@ -108,13 +108,11 @@ body {
 .hamburger:hover {
 	.tendina {
 		top: 10px;
-		transform: scaleY(1);
-		
-		.lingua li:hover {
-			transform: scaleY(1);
-		}
+		transform: scaleY(1);	
 	}
 }
+
+
 
 article {
 	margin-top: 70px;
@@ -195,4 +193,8 @@ form {
 			border-radius: 10px;
 		}
 	}
+}
+
+#dark:hover > html {
+	background-color: $cd1;
 }
