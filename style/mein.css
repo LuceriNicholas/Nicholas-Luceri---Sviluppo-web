@@ -29,7 +29,6 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: white;
 }
 
 .header header {
@@ -314,6 +313,41 @@ footer .address2 {
   }
   form fieldset .oggetto input {
     width: 86.3%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .header {
+    position: fixed;
+  }
+  .page {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+    border: 1px solid red;
+  }
+  .page article {
+    max-width: 100%;
+    height: 100%;
+    border: 1px solid blue;
+  }
+  .page article h1 {
+    width: 45%;
+    border: 1px solid red;
+  }
+  .page article picture {
+    width: 45%;
+    border: 1px solid red;
+  }
+  footer {
+    position: fixed;
+    bottom: -20px;
   }
 }
 /*# sourceMappingURL=mein.css.map */

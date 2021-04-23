@@ -1,2 +1,36 @@
 //main: main.scss
 
+@media only screen and (min-width: 900px) {
+    .header {
+        position: fixed;
+    }
+
+    .page {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        border: 1px solid red;
+        
+        article {
+            max-width: 100%;
+            height: 100%;
+            border: 1px solid blue;
+
+            h1 {
+                width: 45%;
+                border: 1px solid red;
+            }
+            
+            picture {
+                width: 45%;
+                border: 1px solid red;
+            }
+
+        }
+    }
+    footer {
+        position: fixed;
+        bottom: -20px;
+    }
+}
