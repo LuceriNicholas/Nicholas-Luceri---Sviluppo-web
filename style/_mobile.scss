@@ -120,32 +120,33 @@ html {
 	align-items: center;
 	justify-content: center;
 	font-family: $f;
-}
 
-
-article {
-	margin-top: 70px;
-	padding: 20px;
-	max-width: 600px;
 
 	h1 {
 		text-align: center;
+		margin-top: 90px;
+		padding: 10px;
+
 	}
 
-	picture, img {
+	.picture {
 		margin: auto;
 		width: 100%;
 		max-width: 600px;
 		
 	}
 
-	p, address {	
-		text-align: justify;
-		color: $c2;
-		max-width: 700px;
+	article {
+		padding: 20px;
+		max-width: 600px;
+
+		p, address {	
+			text-align: justify;
+			color: $c2;
+			max-width: 700px;
+		}
 	}
 }
-
 
 
 
