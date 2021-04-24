@@ -22,7 +22,6 @@ html {
   position: absolute;
   z-index: 2;
   top: 20px;
-  left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,7 +52,7 @@ html {
 }
 
 .header header .logo a {
-  font-family: 'lobster';
+  font-family: "lobster";
   color: black;
   text-decoration: none;
 }
@@ -85,13 +84,13 @@ html {
   border-radius: 10px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.363) 0px 0px 18px 2px;
           box-shadow: rgba(0, 0, 0, 0.363) 0px 0px 18px 2px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .header header .tendina li {
   padding: 25px;
   font-size: large;
   text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
 }
 
@@ -171,13 +170,13 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 article {
   margin-top: 70px;
   padding: 20px;
-  max-width: 700px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 600px;
 }
 
 article h1 {
@@ -215,10 +214,10 @@ form fieldset {
   -webkit-box-shadow: rgba(0, 0, 0, 0.363) 0px 0px 18px 2px;
           box-shadow: rgba(0, 0, 0, 0.363) 0px 0px 18px 2px;
   max-width: 700px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 form fieldset div {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   width: 100%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -248,17 +247,12 @@ form fieldset fieldset {
           box-shadow: none;
 }
 
-form fieldset fieldset legend {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
 form fieldset fieldset textarea {
   width: 100%;
 }
 
 form fieldset h5 {
   font-weight: 300;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 form fieldset #pulsante {
@@ -271,8 +265,8 @@ form fieldset #pulsante {
 footer {
   width: 100%;
   text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 footer .deco {
@@ -319,6 +313,10 @@ footer .address2 {
 @media only screen and (min-width: 900px) {
   .header {
     position: fixed;
+    width: 100%;
+  }
+  .header header {
+    max-width: 1000px;
   }
   .page {
     -webkit-box-orient: horizontal;
@@ -333,7 +331,7 @@ footer .address2 {
     border: 1px solid red;
   }
   .page article {
-    max-width: 100%;
+    max-width: 2000px;
     height: 100%;
     border: 1px solid blue;
   }

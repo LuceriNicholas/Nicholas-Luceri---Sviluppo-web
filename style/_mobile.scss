@@ -10,7 +10,6 @@ html {
 	position: absolute;
 	z-index: 2;
 	top: 20px;
-	left: 0;
 	display: flex;
 	justify-content: center;
 
@@ -30,7 +29,7 @@ html {
 
 				
 		.logo a {
-			font-family: 'lobster';
+			font-family: "lobster";
 			color: rgb(0, 0, 0);
 			text-decoration: none;
 		}
@@ -56,12 +55,12 @@ html {
 			transform: scaleY(0);
 			border-radius: 10px;
 			box-shadow: $ombra;
+			font-family: $f;
 
 			li {
 				padding:25px;
 				font-size: large;
 				text-align: center;
-				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 				font-weight: bold;
 				&:last-of-type {
 					padding-bottom: 55px;
@@ -120,14 +119,14 @@ html {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	font-family: $f;
 }
 
 
 article {
 	margin-top: 70px;
 	padding: 20px;
-	max-width: 700px;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	max-width: 600px;
 
 	h1 {
 		text-align: center;
@@ -162,9 +161,9 @@ form {
 		background-color: rgba(126, 138, 162, 0.398);
 		box-shadow: $ombra;
 		max-width: 700px;
+		font-family: $f;
 		
 		div {
-			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 			width: 100%;
 			flex-wrap: wrap;
 			margin: 0px 0 20px 0;
@@ -190,10 +189,6 @@ form {
 			width: 100%;
 			background-color: transparent;
 			box-shadow: none;
-			
-			legend {
-				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-			}
 
 			textarea {
 				width: 100%;
@@ -202,7 +197,6 @@ form {
 
 		h5 {
 			font-weight: 300;
-			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 		}
 
 		#pulsante {
@@ -217,8 +211,8 @@ form {
 footer {
 	width: 100%;
 	text-align: center;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-weight: bold;
+	font-family: $f;
 
 	.deco {
 		width: 250px;
