@@ -86,7 +86,7 @@ html {
 .hamburger:hover img {
 	display: flex;
 	align-items: center;
-	transform: rotate(-270deg);
+	//transform: rotate(-270deg);
 }
 
 @media only screen and (max-width: 900px) {
@@ -98,15 +98,6 @@ html {
 				top: -140px;
 				transform: scaleY(0);
 			}
-			&:hover {
-				.hamburger {
-					transform: rotate(270deg);
-				}
-			}
-		}
-
-		li:hover .hamburger {
-			transform: rotate(270deg);
 		}
 
 	}
@@ -246,8 +237,8 @@ footer {
 		img {
 			width: 30px;
 			margin: 30px 5px 5px 5px;
-			box-shadow: rgba(0, 0, 0, 0.160) 0px 0px 18px 2px;
-			background-color:rgba(0, 0, 0, 0.089);
+			//box-shadow: rgba(0, 0, 0, 0.160) 0px 0px 18px 2px;
+			//background-color:rgba(0, 0, 0, 0.089);
 			border-radius: 10px;
 		}
 		
