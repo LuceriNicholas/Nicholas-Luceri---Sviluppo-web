@@ -53,7 +53,6 @@
         overflow-x: hidden;
         scroll-behavior: smooth;
         scroll-snap-type: x mandatory;
-        //border: 1px solid red;
 
         .container {
             min-width: 100vw;
@@ -61,7 +60,6 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            //border: 1px solid blue;
 
             .home {
                 margin: 0 auto 50px auto;
@@ -84,8 +82,6 @@
         .container2 {
             min-width: 100vw;
             
-            //border: 1px solid blue;
-
             .container2-2 {
                 max-width: 1800px;
                 display: flex;
@@ -103,7 +99,6 @@
                     min-width: 400px;
                     max-width: 500px;
                     height: 100%;
-                    //border: 1px solid blue;
                 }
 
             }
@@ -134,9 +129,7 @@
         .social img {
             transition: all linear 0.2s;
             &:hover {
-                //background-color: rgba(0, 0, 0, 0.151);
                 width: 35px;
-                //box-shadow: $ombra;
             }
         }
     }
